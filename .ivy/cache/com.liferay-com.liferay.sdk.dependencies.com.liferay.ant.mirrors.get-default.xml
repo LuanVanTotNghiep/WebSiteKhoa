@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.liferay"
+		module="com.liferay.sdk.dependencies.com.liferay.ant.mirrors.get"
+		revision="working@TRUNGTHANG"
+		conf="default"
+		confs="default, internal, provided"
+		date="20180223205426"/>
+	<dependencies>
+		<module organisation="com.liferay" name="com.liferay.ant.mirrors.get">
+			<revision name="1.0.3" status="release" pubdate="20161130003406" resolver="liferay-public" artresolver="default" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, master" position="0">
+				<license name="LGPL 2.1" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt"/>
+				<metadata-artifact status="successful" details="" size="1442" time="209" location="C:\Users\TrungThang\Desktop\Liferaytraining\day6\sdk\.ivy\cache\com.liferay\com.liferay.ant.mirrors.get\ivy-1.0.3.xml" searched="true" original-local-location="C:\Users\TrungThang\Desktop\Liferaytraining\day6\sdk\.ivy\cache\com.liferay\com.liferay.ant.mirrors.get\ivy-1.0.3.xml.original" origin-is-local="false" origin-location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.ant.mirrors.get/1.0.3/com.liferay.ant.mirrors.get-1.0.3.pom"/>
+				<caller organisation="com.liferay" name="com.liferay.sdk.dependencies.com.liferay.ant.mirrors.get" conf="default" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="working@TRUNGTHANG"/>
+				<artifacts>
+					<artifact name="com.liferay.ant.mirrors.get" type="jar" ext="jar" status="successful" details="" size="6724" time="398" location="C:\Users\TrungThang\Desktop\Liferaytraining\day6\sdk\.ivy\cache\com.liferay\com.liferay.ant.mirrors.get\jars\com.liferay.ant.mirrors.get-1.0.3.jar">
+						<origin-location is-local="false" location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.ant.mirrors.get/1.0.3/com.liferay.ant.mirrors.get-1.0.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

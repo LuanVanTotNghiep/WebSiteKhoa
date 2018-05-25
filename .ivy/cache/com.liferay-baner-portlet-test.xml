@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.liferay"
+		module="baner-portlet"
+		revision="working@TRUNGTHANG"
+		conf="test"
+		confs="default, internal, provided, runtime, test"
+		date="20180314152313"/>
+	<dependencies>
+		<module organisation="com.liferay" name="com.liferay.ant.arquillian">
+			<revision name="1.0.0-SNAPSHOT" error="several problems occurred while resolving dependency: com.liferay#com.liferay.ant.arquillian;1.0.0-SNAPSHOT {test=[default]}:
+	liferay-private: unable to get resource for com/liferay#com.liferay.ant.arquillian;1.0.0-SNAPSHOT: res=${ivy.repository.liferay.private.url}/com/liferay/com.liferay.ant.arquillian/1.0.0-SNAPSHOT/com.liferay.ant.arquillian-1.0.0-SNAPSHOT-javadoc.jar: java.net.MalformedURLException: no protocol: ${ivy.repository.liferay.private.url}/com/liferay/com.liferay.ant.arquillian/1.0.0-SNAPSHOT/com.liferay.ant.arquillian-1.0.0-SNAPSHOT-javadoc.jar
+	liferay-private: unable to get resource for com/liferay#com.liferay.ant.arquillian;1.0.0-SNAPSHOT: res=${ivy.repository.liferay.private.url}/com/liferay/com.liferay.ant.arquillian/1.0.0-SNAPSHOT/com.liferay.ant.arquillian-1.0.0-SNAPSHOT.pom: java.net.MalformedURLException: no protocol: ${ivy.repository.liferay.private.url}/com/liferay/com.liferay.ant.arquillian/1.0.0-SNAPSHOT/com.liferay.ant.arquillian-1.0.0-SNAPSHOT.pom" downloaded="false" searched="false" conf="default" position="-1">
+				<caller organisation="com.liferay" name="baner-portlet" conf="test" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="working@TRUNGTHANG"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jboss.arquillian.container" name="arquillian-tomcat-remote-7">
+			<revision name="1.0.0.CR6" error="several problems occurred while resolving dependency: org.jboss.arquillian.container#arquillian-tomcat-remote-7;1.0.0.CR6 {test=[default]}:
+	several problems occurred while resolving dependency: org.jboss.arquillian.container#arquillian-parent-tomcat;1.0.0.CR6 {}:
+	several problems occurred while resolving dependency: org.jboss#jboss-parent;8 {}:
+	liferay-private: unable to get resource for org/jboss#jboss-parent;8: res=${ivy.repository.liferay.private.url}/org/jboss/jboss-parent/8/jboss-parent-8.jar: java.net.MalformedURLException: no protocol: ${ivy.repository.liferay.private.url}/org/jboss/jboss-parent/8/jboss-parent-8.jar
+	liferay-private: unable to get resource for org/jboss#jboss-parent;8: res=${ivy.repository.liferay.private.url}/org/jboss/jboss-parent/8/jboss-parent-8.pom: java.net.MalformedURLException: no protocol: ${ivy.repository.liferay.private.url}/org/jboss/jboss-parent/8/jboss-parent-8.pom
+	liferay-private: unable to get resource for org/jboss/arquillian/container#arquillian-parent-tomcat;1.0.0.CR6: res=${ivy.repository.liferay.private.url}/org/jboss/arquillian/container/arquillian-parent-tomcat/1.0.0.CR6/arquillian-parent-tomcat-1.0.0.CR6.pom: java.net.MalformedURLException: no protocol: ${ivy.repository.liferay.private.url}/org/jboss/arquillian/container/arquillian-parent-tomcat/1.0.0.CR6/arquillian-parent-tomcat-1.0.0.CR6.pom
+	liferay-private: unable to get resource for org/jboss/arquillian/container#arquillian-tomcat-remote-7;1.0.0.CR6: res=${ivy.repository.liferay.private.url}/org/jboss/arquillian/container/arquillian-tomcat-remote-7/1.0.0.CR6/arquillian-tomcat-remote-7-1.0.0.CR6.pom: java.net.MalformedURLException: no protocol: ${ivy.repository.liferay.private.url}/org/jboss/arquillian/container/arquillian-tomcat-remote-7/1.0.0.CR6/arquillian-tomcat-remote-7-1.0.0.CR6.pom" downloaded="false" searched="false" conf="default" position="-1">
+				<caller organisation="com.liferay" name="baner-portlet" conf="test" rev="1.0.0.CR6" rev-constraint-default="1.0.0.CR6" rev-constraint-dynamic="1.0.0.CR6" callerrev="working@TRUNGTHANG"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jboss.arquillian.junit" name="arquillian-junit-container">
+			<revision name="1.1.6.Final" error="several problems occurred while resolving dependency: org.jboss.arquillian.junit#arquillian-junit-container;1.1.6.Final {test=[default]}:
+	several problems occurred while resolving dependency: org.jboss.arquillian#arquillian-build;1.1.6.Final {}:
+	several problems occurred while resolving dependency: org.jboss.arquillian#arquillian-parent;1.1.6.Final {}:
+	several problems occurred while resolving dependency: org.jboss#jboss-parent;14 {}:
+	liferay-private: unable to get resource for org/jboss#jboss-parent;14: res=${ivy.repository.liferay.private.url}/org/jboss/jboss-parent/14/jboss-parent-14.jar: java.net.MalformedURLException: no protocol: ${ivy.repository.liferay.private.url}/org/jboss/jboss-parent/14/jboss-parent-14.jar
+	liferay-private: unable to get resource for org/jboss#jboss-parent;14: res=${ivy.repository.liferay.private.url}/org/jboss/jboss-parent/14/jboss-parent-14.pom: java.net.MalformedURLException: no protocol: ${ivy.repository.liferay.private.url}/org/jboss/jboss-parent/14/jboss-parent-14.pom
+	liferay-private: unable to get resource for org/jboss/arquillian#arquillian-parent;1.1.6.Final: res=${ivy.repository.liferay.private.url}/org/jboss/arquillian/arquillian-parent/1.1.6.Final/arquillian-parent-1.1.6.Final.pom: java.net.MalformedURLException: no protocol: ${ivy.repository.liferay.private.url}/org/jboss/arquillian/arquillian-parent/1.1.6.Final/arquillian-parent-1.1.6.Final.pom
+	liferay-private: unable to get resource for org/jboss/arquillian#arquillian-build;1.1.6.Final: res=${ivy.repository.liferay.private.url}/org/jboss/arquillian/arquillian-build/1.1.6.Final/arquillian-build-1.1.6.Final.pom: java.net.MalformedURLException: no protocol: ${ivy.repository.liferay.private.url}/org/jboss/arquillian/arquillian-build/1.1.6.Final/arquillian-build-1.1.6.Final.pom
+	liferay-private: unable to get resource for org/jboss/arquillian/junit#arquillian-junit-container;1.1.6.Final: res=${ivy.repository.liferay.private.url}/org/jboss/arquillian/junit/arquillian-junit-container/1.1.6.Final/arquillian-junit-container-1.1.6.Final.pom: java.net.MalformedURLException: no protocol: ${ivy.repository.liferay.private.url}/org/jboss/arquillian/junit/arquillian-junit-container/1.1.6.Final/arquillian-junit-container-1.1.6.Final.pom" downloaded="false" searched="false" conf="default" position="-1">
+				<caller organisation="com.liferay" name="baner-portlet" conf="test" rev="1.1.6.Final" rev-constraint-default="1.1.6.Final" rev-constraint-dynamic="1.1.6.Final" callerrev="working@TRUNGTHANG"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
