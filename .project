@@ -2,7 +2,21 @@
 <projectDescription>
 	<name>sdk</name>
 	<comment></comment>
-	<projects></projects>
-	<buildSpec></buildSpec>
-	<natures></natures>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<filteredResources>
+		<filter>
+			<id>1527233317793</id>
+			<name>themes</name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-true-false-test1-theme</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
 </projectDescription>
