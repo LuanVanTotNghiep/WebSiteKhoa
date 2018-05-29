@@ -16,11 +16,14 @@
 
 <a href="#main-content" id="skip-to-content">#language ("skip-to-content")</a>
 
-$theme.include($body_top_include)
+##$theme.include($body_top_include)
 
-#dockbar()
+##dockbar()
 
 <div class="container-fluid" id="wrapper">
+	<div>
+		$theme.runtime("link_WAR_Toplinkportlet")
+	</div>
 	<header id="banner" role="banner">
 		<div id="heading">
 			<h1 class="site-title">
