@@ -3,7 +3,7 @@
 
 <display>
 	
-	<category name="category.sample">
+	<category name="category.Themes">
 		<portlet id="link"></portlet>
 	</category>
 </display>

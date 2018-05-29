@@ -1,0 +1,18 @@
+#wrapper{
+	padding: 0!important;
+}
+.top-ul{
+	margin: 0!important;
+	list-style-type: none;
+}.top-ul>a>li{
+	display: inline-block!important;
+	padding: 5px;
+}
+.top-ul>li{
+	display: inline-block!important;
+	padding: 5px;
+}
+.portlet-borderless-container{
+	margin: 0!important;
+	padding: 0!important;
+}
