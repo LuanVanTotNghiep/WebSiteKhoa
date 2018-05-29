@@ -6,8 +6,8 @@
 		module="Top-link-portlet"
 		revision="working@TRUNGTHANG"
 		conf="provided"
-		confs="default, internal, provided, runtime, test"
-		date="20180525132624"/>
+		confs="default, internal, provided"
+		date="20180525165101"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>
